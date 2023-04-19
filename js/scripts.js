@@ -20,3 +20,10 @@ let btnAbrir = document.querySelector(".abrir-lateral");
 btnAbrir.onclick = function(){
     lateral.classList.add("active");
 }
+
+let btnFechar = document.querySelector(".fechar-lateral");
+btnFechar.onclick = function(){
+    lateral.classList.remove("active");
+}
+
+
