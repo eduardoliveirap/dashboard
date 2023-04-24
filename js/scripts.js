@@ -1,4 +1,3 @@
-//CHECA SE O LIGHTMODE ESTÁ ATIVO
 let lightMode = localStorage.getItem('lightMode');
 if(lightMode === 'true'){
     modeSwitch.classList.toggle("active");
@@ -25,5 +24,3 @@ let btnFechar = document.querySelector(".fechar-lateral");
 btnFechar.onclick = function(){
     lateral.classList.remove("active");
 }
-
-
